@@ -1,0 +1,25 @@
+{
+  "name": "maestro",
+  "version": "0.0.1",
+  "description": "Handles deployments of apps to ubuntu vps'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schme16/maestro.git"
+  },
+  "author": "Shane Gadsby <schme16@gmail.com>",
+  "license": "GNU 2.0",
+  "bugs": {
+    "url": "https://github.com/schme16/maestro/issues"
+  },
+  "homepage": "https://github.com/schme16/maestro",
+  "dependencies": {
+    "compress": "^0.99.0",
+    "cors": "^2.5.2",
+    "express": "^4.11.0",
+    "pouchdb": "^3.2.1"
+  }
+}
